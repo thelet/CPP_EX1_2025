@@ -8,9 +8,9 @@ This project implements a graph using an adjacency list and provides several cla
 
 - **Breadth-First Search (BFS)**
 - **Depth-First Search (DFS)**
-- **Dijkstra's Shortest Path Algorithm** (with error checking for negative weights)
-- **Prim's Minimum Spanning Tree (MST) Algorithm** (with error checking for negative weights)
-- **Kruskal's Minimum Spanning Tree (MST) Algorithm** (with error checking for negative weights)
+- **Dijkstra's Shortest Path Algorithm** 
+- **Prim's Minimum Spanning Tree (MST) Algorithm** 
+- **Kruskal's Minimum Spanning Tree (MST) Algorithm** 
 
 In addition, the project includes error handling to detect negative weights (which are unsupported by some algorithms) and demonstrates proper memory management, even when errors occur.
 
@@ -28,7 +28,7 @@ In addition, the project includes error handling to detect negative weights (whi
   Functions verify input validity (vertex indices) and check for negative weights where not allowed. If an error occurs, the functions free allocated memory and throw a specific exception message.
 
 - **Testing:**  
-  Unit tests are written using the [doctest](https://github.com/onqtam/doctest) framework. The tests compare internal graph structures and check both normal and error conditions.
+  Unit tests are written using the doctest framework. The tests compare internal graph structures and check both normal and error conditions.
 
 ## Graph Output Format
 
@@ -115,4 +115,5 @@ Clean Up:
 
  ```bash
   make clean
+```
 Removes generated executables.
